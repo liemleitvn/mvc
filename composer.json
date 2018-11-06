@@ -1,0 +1,22 @@
+{
+    "name": "liemarchitecture/mvc",
+    "description": "MVC Demo architecture by myself, not using any framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Liem Le",
+            "email": "liemleitvn@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/routing": "^4.1",
+        "symfony/http-foundation": "^4.1",
+        "symfony/dependency-injection": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Tests\\": "tests/"
+        }
+    }
+}
